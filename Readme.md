@@ -7,20 +7,12 @@ A JavaScript polling class designed for executing long running processes that re
 The current published version:
 
 ```
-npm install atropa-SerialActor
-```
-
-The bleeding edge development version:
-
-```
 npm install git+https://github.com/matthewkastor/atropa-SerialActor.git#master
 ```
 
 For some packages I simply publish to the `gh-pages` branch since it's easier to
  generate web docs in the repo and push the whole thing. Check the repo
  if you try installing the `master` branch and don't get what you expect.
-
-This package lives at: [https://npmjs.org/package/atropa-SerialActor](https://npmjs.org/package/atropa-SerialActor)
 
 Source code available at: [https://github.com/matthewkastor/atropa-SerialActor/](https://github.com/matthewkastor/atropa-SerialActor/)
 
