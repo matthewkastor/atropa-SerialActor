@@ -1,6 +1,6 @@
 {
     "name": "atropa-SerialActor",
-    "version": "2013.09.29-141",
+    "version": "2013.09.29-238",
     "description": "A JavaScript polling class designed for executing long running processes that return nothing and have no callbacks.",
     "main": "./src/atropa-SerialActor.js",
     "directories": {
