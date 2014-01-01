@@ -1,50 +1,50 @@
 {
-    "name": "atropa-SerialActor",
-    "version": "2013.10.13",
-    "description": "A JavaScript polling class designed for executing long running processes that return nothing and have no callbacks.",
-    "main": "./src/atropa-SerialActor.js",
-    "directories": {
-        "lib": "src",
-        "doc": "docs"
-    },
-    "devDependencies": {
-        "atropa-jsformatter": ">=0.1.2",
-        "atropa-jslint": ">=0.1.2",
-        "browserify": ">=2.29.1",
-        "jasmine-node": ">=1.11.0",
-        "jsdoc-toolkit": "git+https://github.com/matthewkastor/node-jsdoc-toolkit.git#fix-tests"
-    },
-    "scripts": {
-        "test": "jasmine-node specs/",
-        "buildBrowserModule": "node dev/browserify.js",
-        "buildDocs": "jsdoc-toolkit -v -d=./docs/jsdoc/ -r -s src/",
-        "lint": "atropa-jslint ./src/atropa-SerialActor.js",
-        "srcFormat": "atropa-jsformatter ./src/atropa-SerialActor.js ./src/atropa-SerialActor.js",
-        "pretest": "node dev/browserify.js",
-        "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s src/"
-    },
-    "homepage": "https://github.com/matthewkastor/atropa-SerialActor/",
-    "bugs": "https://github.com/matthewkastor/atropa-SerialActor/issues",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/matthewkastor/atropa-SerialActor.git"
-    },
-    "keywords": [
-        "atropa-SerialActor",
-        "atropa"
-    ],
-    "author": {
-        "name": "Matthew Kastor",
-        "email": "matthewkastor@gmail.com",
-        "url": "https://plus.google.com/100898583798552211130"
-    },
-    "licenses": [
-        {
-            "type": "gpl-3.0",
-            "url": "http://www.gnu.org/licenses/gpl-3.0-standalone.html"
-        }
-    ],
-    "dependencies": {
-        "atropa-header": "git+https://github.com/matthewkastor/atropa-header.git#master"
+  "name": "atropa-SerialActor",
+  "version": "2013.10.14",
+  "description": "A JavaScript polling class designed for executing long running processes that return nothing and have no callbacks.",
+  "main": "./src/atropa-SerialActor.js",
+  "directories": {
+    "lib": "src",
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "atropa-jsformatter": ">=0.1.2",
+    "atropa-jslint": ">=0.1.2",
+    "browserify": ">=2.29.1",
+    "jasmine-node": ">=1.11.0",
+    "jsdoc-toolkit": "git+https://github.com/matthewkastor/node-jsdoc-toolkit.git#fix-tests"
+  },
+  "scripts": {
+    "test": "jasmine-node specs/",
+    "buildBrowserModule": "node dev/browserify.js",
+    "buildDocs": "jsdoc-toolkit -v -d=./docs/jsdoc/ -r -s src/",
+    "lint": "atropa-jslint ./src/atropa-SerialActor.js",
+    "srcFormat": "atropa-jsformatter ./src/atropa-SerialActor.js ./src/atropa-SerialActor.js",
+    "pretest": "node dev/browserify.js",
+    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s src/"
+  },
+  "homepage": "https://github.com/matthewkastor/atropa-SerialActor/",
+  "bugs": "https://github.com/matthewkastor/atropa-SerialActor/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matthewkastor/atropa-SerialActor.git"
+  },
+  "keywords": [
+    "atropa-SerialActor",
+    "atropa"
+  ],
+  "author": {
+    "name": "Matthew Kastor",
+    "email": "matthewkastor@gmail.com",
+    "url": "https://plus.google.com/100898583798552211130"
+  },
+  "licenses": [
+    {
+      "type": "gpl-3.0",
+      "url": "http://www.gnu.org/licenses/gpl-3.0-standalone.html"
     }
+  ],
+  "dependencies": {
+    "atropa-header": "git+https://github.com/matthewkastor/atropa-header.git#master"
+  }
 }
