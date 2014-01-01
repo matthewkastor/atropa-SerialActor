@@ -17,11 +17,11 @@
   "scripts": {
     "test": "jasmine-node specs/",
     "buildBrowserModule": "node dev/browserify.js",
-    "buildDocs": "jsdoc-toolkit -v -d=./docs/jsdoc/ -r -s src/",
+    "buildDocs": "jsdoc-toolkit -v -d=./docs/jsdoc/ -r -s node_modules/atropa-header/src/ src/",
     "lint": "atropa-jslint ./src/atropa-SerialActor.js",
     "srcFormat": "atropa-jsformatter ./src/atropa-SerialActor.js ./src/atropa-SerialActor.js",
     "pretest": "node dev/browserify.js",
-    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s src/"
+    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s node_modules/atropa-header/src/ src/"
   },
   "homepage": "https://github.com/matthewkastor/atropa-SerialActor/",
   "bugs": "https://github.com/matthewkastor/atropa-SerialActor/issues",
