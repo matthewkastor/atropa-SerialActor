@@ -60,7 +60,6 @@ var atropa = require('atropa-header');
  *  when it is finished in order to allow the actor to continue.
  * @returns {atropa.SerialActor} Returns an <code>atropa.SerialActor</code>
  *  instance.
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.SerialActor">tests</a>
  * @example
  * function dummyActor(){
  *     var that = this;
