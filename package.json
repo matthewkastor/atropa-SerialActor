@@ -1,6 +1,6 @@
 {
   "name": "atropa-SerialActor",
-  "version": "2014.1.2",
+  "version": "2014.2.1",
   "description": "A JavaScript polling class designed for executing long running processes that return nothing and have no callbacks.",
   "main": "./src/atropa-SerialActor.js",
   "directories": {
@@ -21,7 +21,7 @@
     "lint": "atropa-jslint ./src/atropa-SerialActor.js",
     "srcFormat": "atropa-jsformatter ./src/atropa-SerialActor.js ./src/atropa-SerialActor.js",
     "pretest": "node dev/browserify.js",
-    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s node_modules/atropa-header/src/ src/"
+    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./node_modules/jsdoc-toolkit/templates/vsdoc/ -r -s node_modules/atropa-header/src/ src/"
   },
   "homepage": "https://github.com/matthewkastor/atropa-SerialActor/",
   "bugs": "https://github.com/matthewkastor/atropa-SerialActor/issues",
